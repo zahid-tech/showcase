@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto' , sans-serif;
+}
+
+
+
+
+body{
+    background: url("full-hd-wallpaper-background-cable-bridge-bridge-forest-tree.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    color: burlywood;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.registration-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,8);
+    padding: 30px;
+    border-radius: 5px ;
+    display: flex;
+    flex-direction: column;
+    opacity: 80%;
+}
+
+
+.button{
+    color: burlywood;
+}
